@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace difi_sdp_klient_v1._2
+namespace difi_sdp_klient_v1._2.eksempler
 {
-    class Program
+    class _3_Forsendelse
     {
-        static void Main(string[] args)
-        {
-            
-        }
     }
 }

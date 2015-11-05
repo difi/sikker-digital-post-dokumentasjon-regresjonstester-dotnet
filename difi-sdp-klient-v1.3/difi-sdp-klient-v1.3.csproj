@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>difi_sdp_klient_v1._3</RootNamespace>
-    <AssemblyName>difi_sdp_klient_v1._3</AssemblyName>
+    <AssemblyName>difi-sdp-klient-v1.3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ApiClientShared, Version=1.0.5578.25965, Culture=neutral, PublicKeyToken=6e0e24e0c7886562, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.3.5785.28389-beta\lib\net45\ApiClientShared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Difi.Felles.Utility, Version=0.1.5598.25086, Culture=neutral, PublicKeyToken=bd8139acc70008cb, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.3.5785.28389-beta\lib\net45\Difi.Felles.Utility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Difi.SikkerDigitalPost.Klient, Version=1.3.5785.28389, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.3.5785.28389-beta\lib\net45\Difi.SikkerDigitalPost.Klient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Difi.SikkerDigitalPost.Klient.Domene, Version=1.3.5785.28389, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.3.5785.28389-beta\lib\net45\Difi.SikkerDigitalPost.Klient.Domene.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="eksempler\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
