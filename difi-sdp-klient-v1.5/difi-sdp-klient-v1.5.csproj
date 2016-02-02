@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B8C9D0E4-9E79-4B96-9966-27C7FB803A32}</ProjectGuid>
+    <ProjectGuid>{8935891C-9345-49E0-ACA4-86A918071EC6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>difi_sdp_klient_v1._2</RootNamespace>
-    <AssemblyName>difi-sdp-klient-v1.2</AssemblyName>
+    <RootNamespace>difi_sdp_klient_v1._5</RootNamespace>
+    <AssemblyName>difi-sdp-klient-v1.5</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,24 +29,21 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ApiClientShared, Version=1.0.5578.25965, Culture=neutral, PublicKeyToken=6e0e24e0c7886562, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.2.5760.21366\lib\net45\ApiClientShared.dll</HintPath>
+    <Reference Include="ApiClientShared, Version=1.0.5637.25994, Culture=neutral, PublicKeyToken=6e0e24e0c7886562, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5876.31653\lib\net45\ApiClientShared.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Difi.Felles.Utility, Version=0.1.5598.25086, Culture=neutral, PublicKeyToken=bd8139acc70008cb, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.2.5760.21366\lib\net45\Difi.Felles.Utility.dll</HintPath>
+    <Reference Include="Difi.Felles.Utility, Version=0.2.5813.23733, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5876.31653\lib\net45\Difi.Felles.Utility.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Difi.SikkerDigitalPost.Klient, Version=1.2.5760.21366, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.2.5760.21366\lib\net45\Difi.SikkerDigitalPost.Klient.dll</HintPath>
+    <Reference Include="Difi.SikkerDigitalPost.Klient, Version=1.5.5876.31653, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5876.31653\lib\net45\Difi.SikkerDigitalPost.Klient.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Difi.SikkerDigitalPost.Klient.Domene, Version=1.2.5760.21366, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.2.5760.21366\lib\net45\Difi.SikkerDigitalPost.Klient.Domene.dll</HintPath>
+    <Reference Include="Difi.SikkerDigitalPost.Klient.Domene, Version=1.5.5876.31653, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5876.31653\lib\net45\Difi.SikkerDigitalPost.Klient.Domene.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -62,17 +56,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="eksempler\2_AvsenderOgDatabehandler.cs" />
     <Compile Include="eksempler\1_Postinfo.cs" />
-    <Compile Include="eksempler\4_klient.cs" />
+    <Compile Include="eksempler\2_AvsenderOgDatabehandler.cs" />
     <Compile Include="eksempler\3_Forsendelse.cs" />
+    <Compile Include="eksempler\4_klient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

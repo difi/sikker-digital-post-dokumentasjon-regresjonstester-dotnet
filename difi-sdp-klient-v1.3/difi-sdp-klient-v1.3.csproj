@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E9C3694F-2F7A-4CC1-8B00-92BB3D873A93}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>difi_sdp_klient_v1._3</RootNamespace>
     <AssemblyName>difi-sdp-klient-v1.3</AssemblyName>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ApiClientShared, Version=1.0.5578.25965, Culture=neutral, PublicKeyToken=6e0e24e0c7886562, processorArchitecture=MSIL">
@@ -63,7 +66,6 @@
     <Compile Include="eksempler\2_AvsenderOgDatabehandler.cs" />
     <Compile Include="eksempler\3_Forsendelse.cs" />
     <Compile Include="eksempler\4_klient.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
