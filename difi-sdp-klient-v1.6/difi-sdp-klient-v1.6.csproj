@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8935891C-9345-49E0-ACA4-86A918071EC6}</ProjectGuid>
+    <ProjectGuid>{1E1C7586-F6E9-4607-A964-5E07FB6E51A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>difi_sdp_klient_v1._5</RootNamespace>
-    <AssemblyName>difi-sdp-klient-v1.5</AssemblyName>
+    <RootNamespace>difi_sdp_klient_v1._6</RootNamespace>
+    <AssemblyName>difi-sdp-klient-v1.6</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,19 +31,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ApiClientShared, Version=1.0.5637.25994, Culture=neutral, PublicKeyToken=6e0e24e0c7886562, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5955.26320-beta\lib\net45\ApiClientShared.dll</HintPath>
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.6.5962.18135-beta\lib\net45\ApiClientShared.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.6.5962.18135-beta\lib\net45\Common.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.6.5962.18135-beta\lib\net45\Common.Logging.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Difi.Felles.Utility, Version=0.5.5955.25016, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5955.26320-beta\lib\net45\Difi.Felles.Utility.dll</HintPath>
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.6.5962.18135-beta\lib\net45\Difi.Felles.Utility.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Difi.SikkerDigitalPost.Klient, Version=1.5.5955.26320, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5955.26320-beta\lib\net45\Difi.SikkerDigitalPost.Klient.dll</HintPath>
+    <Reference Include="Difi.SikkerDigitalPost.Klient, Version=1.6.5962.18135, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.6.5962.18135-beta\lib\net45\Difi.SikkerDigitalPost.Klient.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Difi.SikkerDigitalPost.Klient.Domene, Version=1.5.5955.26319, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
-      <HintPath>..\packages\difi-sikker-digital-post-klient.1.5.5955.26320-beta\lib\net45\Difi.SikkerDigitalPost.Klient.Domene.dll</HintPath>
+    <Reference Include="Difi.SikkerDigitalPost.Klient.Domene, Version=1.6.5962.18134, Culture=neutral, PublicKeyToken=683b8efceae684a6, processorArchitecture=MSIL">
+      <HintPath>..\packages\difi-sikker-digital-post-klient.1.6.5962.18135-beta\lib\net45\Difi.SikkerDigitalPost.Klient.Domene.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
