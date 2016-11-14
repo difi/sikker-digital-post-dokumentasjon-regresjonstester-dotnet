@@ -1,0 +1,22 @@
+########################################################
+##               MASTER BUILD                         ##
+########################################################
+- 
+  branches:
+    only:
+      - master      
+  version: version-placeholder-{build}-{branch}
+  cache:
+    - packages -> **\packages.config
+  configuration: Release 
+  install:
+    - git submodule update --init --recursive
+    - nuget install secure-file -ExcludeVersion
+  before_build:
+  - ps: >-
+      .\appveyor-deploy\NugetRestore.ps1;
+      .\appveyor-deploy\BuildPreamble.ps1   
+  build:
+    verbosity: minimal  
+  
+  
