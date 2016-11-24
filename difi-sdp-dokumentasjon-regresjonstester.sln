@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "difi-sdp-klient-v1.5", "dif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "difi-sdp-klient-v1.6", "difi-sdp-klient-v1.6\difi-sdp-klient-v1.6.csproj", "{1E1C7586-F6E9-4607-A964-5E07FB6E51A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "difi-sdp-klient-v2", "difi-sdp-klient-v2\difi-sdp-klient-v2.csproj", "{08FEF539-79BA-4406-9886-DE2C61AEE59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "difi-sdp-klient-smoke", "difi-sdp-klient-smoke\difi-sdp-klient-smoke.csproj", "{FF0E3E7E-D53F-4FC0-97CB-EF1CAC182B91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1E1C7586-F6E9-4607-A964-5E07FB6E51A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E1C7586-F6E9-4607-A964-5E07FB6E51A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1C7586-F6E9-4607-A964-5E07FB6E51A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08FEF539-79BA-4406-9886-DE2C61AEE59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08FEF539-79BA-4406-9886-DE2C61AEE59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08FEF539-79BA-4406-9886-DE2C61AEE59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08FEF539-79BA-4406-9886-DE2C61AEE59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0E3E7E-D53F-4FC0-97CB-EF1CAC182B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0E3E7E-D53F-4FC0-97CB-EF1CAC182B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0E3E7E-D53F-4FC0-97CB-EF1CAC182B91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0E3E7E-D53F-4FC0-97CB-EF1CAC182B91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
